@@ -49,7 +49,7 @@ function playRound() {
       console.log("It's a draw!!!");
       break;
     case ComputerChoice == 1 && PlayerChoice == 2:
-      console.log("You win! Rock beats Paper!");
+      console.log("You win! Paper beats Rock!");
       break;
     case ComputerChoice == 1 && PlayerChoice == 3:
       console.log("You loose! Rock beats Scissors!");
@@ -61,7 +61,7 @@ function playRound() {
       console.log("You win! Scissors beats Paper!");
       break;
     case ComputerChoice == 3 && PlayerChoice == 1:
-      console.log("You win! Scissors beats Rock!");
+      console.log("You win! Rock beats Scissor!");
       break;
     case ComputerChoice == 3 && PlayerChoice == 2:
       console.log("You loose! Scissors beats Paper!");
